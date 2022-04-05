@@ -6,10 +6,10 @@ export default function Scene() {
   
   return (
     <>
-    <Canvas camera={{ zoom: 40, position: [10, 0, 200] }} >
+    <Canvas  >
     
-      <ambientLight intensity={0.5} />
-      <spotLight intensity={0.1} angle={0.1} penumbra={2} position={[1, 1, 1]} castShadow />
+      <ambientLight intensity={0.3} position={4} />
+      <pointLight color="white" intensity={1} position={[10, 10, 10]} />
       <Suspense fallback={null}>
         <Head />
       </Suspense>
