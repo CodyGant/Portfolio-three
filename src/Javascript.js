@@ -9,7 +9,7 @@ import { useFrame } from "@react-three/fiber";
 export default function Model({ ...props }) {
   const group = useRef();
   useFrame(({ clock }) => {
-    group.current.rotation.y = Math.sin(clock.getElapsedTime());
+    group.current.rotation.y = clock.getElapsedTime() * 1.5;
   });
   const { nodes, materials } = useGLTF("/javascript.glb");
   return (
@@ -17,7 +17,7 @@ export default function Model({ ...props }) {
       <mesh
         geometry={nodes.JAVASCRIPT.geometry}
         material={materials["JAVASCRIPT.001"]}
-        position={[-0.5, 1, 0.5]}
+        position={[0,0,0]}
         
         rotation={[0, 100, 0]}
         scale={0.05}
