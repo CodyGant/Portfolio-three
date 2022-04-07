@@ -1,5 +1,7 @@
 import React from "react";
 import JavaScript from "../components/BodyAnimation";
+import Html from "../components/HtmlAnimation"
+import Css from "../components/CssAnimation"
 import {Card, CardGroup} from "react-bootstrap";
 function Tech() {
   return (
@@ -13,14 +15,15 @@ function Tech() {
         </Card>
         <Card>
           <Card.Body>
-            <JavaScript />
+            <Html/>
           </Card.Body>
         </Card>
         <Card>
           <Card.Body>
-            <JavaScript />
+            <Css />
           </Card.Body>
         </Card>
+        
         </CardGroup>
       </div>
     </div>
