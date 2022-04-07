@@ -19,8 +19,8 @@ export default function Model({ ...props }) {
         material={materials["JAVASCRIPT.001"]}
         position={[0,0,0]}
         
-        rotation={[0, 100, 0]}
-        scale={0.05}
+        
+        scale={0.1}
       />
     </group>
   );

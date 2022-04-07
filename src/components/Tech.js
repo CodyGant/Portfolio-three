@@ -1,10 +1,27 @@
 import React from "react";
-import FullBody from "../components/BodyAnimation";
+import JavaScript from "../components/BodyAnimation";
+import {Card, CardGroup} from "react-bootstrap";
 function Tech() {
   return (
     <div className="Technologies">
       <div className="fullbody">
-        <FullBody />
+        <CardGroup>
+        <Card className = 'card'>
+          <Card.Body >
+            <JavaScript />
+          </Card.Body>
+        </Card>
+        <Card>
+          <Card.Body>
+            <JavaScript />
+          </Card.Body>
+        </Card>
+        <Card>
+          <Card.Body>
+            <JavaScript />
+          </Card.Body>
+        </Card>
+        </CardGroup>
       </div>
     </div>
   );
