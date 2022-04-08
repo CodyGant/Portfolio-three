@@ -8,6 +8,7 @@ function Terminall() {
       <div>
         <Terminal
           hideTopBar
+          clickToFocus
           style={{ height: "350px", overflow: "hidden" }}
           commands={{
             stop: () => {
