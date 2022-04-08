@@ -29,13 +29,8 @@ class About extends React.Component {
           is in computers and their ability to form the world around us in a
           cyber framework.
           <hr />
-          Sed rhoncus a leo congue sollicitudin. Fusce risus tortor, rutrum id
-          egestas at, elementum in dui. Fusce bibendum purus eu turpis
-          vestibulum, eget aliquet ante pellentesque. Class aptent taciti
-          sociosqu ad litora torquent per conubia nostra, per inceptos
-          himenaeos. Fusce egestas, mauris eu vehicula placerat, lacus mi
-          hendrerit lacus, ac rhoncus arcu purus eget odio. Aliquam commodo
-          mattis lorem vitae porttitor.
+         Try out the terminal! you can move my head around or change the angles. It gives you a more intimate 
+         view of me:) type 'help' to see the commands you can input.
         </p>
       </section>
 
