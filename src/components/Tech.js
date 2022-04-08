@@ -5,7 +5,7 @@ import Css from "../components/CssAnimation"
 import {Card, CardGroup} from "react-bootstrap";
 function Tech() {
   return (
-    <div className="Technologies">
+    <div className="Technologies"  id = 'Technologies'>
       <div className="fullbody">
         <CardGroup>
         <Card className = 'card'>

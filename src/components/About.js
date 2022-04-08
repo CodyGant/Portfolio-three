@@ -9,7 +9,7 @@ class About extends React.Component {
       <div className="screen">
       <section className="buttonGroup">
        
-        <button value="Placebo Button">TECHNOLOGIES</button>
+       <a href = '#Technologies'> <button>TECHNOLOGIES</button></a>
         <button value="Rockets">PROJECTS</button>
         <button value="Smoke Screen">RESUME</button>
         <button value="Booster Rockets">HOW TO CONTACT ME</button>
