@@ -44,15 +44,7 @@ class About extends React.Component {
 
         <section>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit
-            amet est nisl. Mauris euismod vel quam eu tincidunt. Sed dapibus
-            justo id dapibus tempor. Pellentesque a libero sed risus congue
-            ultrices. Quisque at congue massa. Duis feugiat ligula non nisi
-            semper tempus. Duis blandit lacus sed diam blandit, id faucibus nunc
-            viverra. Morbi consequat consequat facilisis. Sed in felis vitae
-            nibh venenatis finibus sed et dolor. Sed vulputate molestie est ac
-            tristique. Vestibulum et aliquam velit, in convallis nisl. Vivamus
-            pellentesque venenatis urna eget suscipit.
+            i need a commit for tonight. I am going thru a lot so its kinda hard to code these past two weeks:/
             <hr />
             Sed rhoncus a leo congue sollicitudin. Fusce risus tortor, rutrum id
             egestas at, elementum in dui. Fusce bibendum purus eu turpis
