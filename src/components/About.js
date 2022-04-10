@@ -50,7 +50,7 @@ class About extends React.Component {
             egestas at, elementum in dui. Fusce bibendum purus eu turpis
             vestibulum, eget aliquet ante pellentesque. Class aptent taciti
             sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos. Fusce egestas, mauris eu vehicula placerat, lacus mi
+            himenaeos. Fusce egestas, this mf bruh mauris eu vehicula placerat, lacus mi
             hendrerit lacus, ac rhoncus arcu purus eget odio. Aliquam commodo
             mattis lorem vitae porttitor.
           </p>
