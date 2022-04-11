@@ -80,14 +80,6 @@ h6 {
   clear: both;
 }
 
-h2:before,
-h2:after,
-h1:before,
-h1:after,
-h3:before,
-h3:after {
-  content: " ✱ ✱ ";
-}
 
 /*Gradent Elements*/
 button:hover,

@@ -7,6 +7,7 @@ function Tech() {
   return (
     <div className="Technologies"  id = 'Technologies'>
       <div className="fullbody">
+        <h1>Technologies</h1>
         <CardGroup>
         <Card className = 'card'>
           <Card.Body >
