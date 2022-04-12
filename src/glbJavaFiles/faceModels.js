@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei"; //importing library so i can use a custom glb
 import { useFrame } from "@react-three/fiber"; //lets me create frames so glb can be animated
-import { useGlobalState } from "./state/index"; //importing global states
+import { useGlobalState } from "../state/index"; //importing global states
 //DEFAULT FACE MODEL
 
 function DefualtModel({ ...props }) {

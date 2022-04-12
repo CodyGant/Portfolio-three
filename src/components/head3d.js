@@ -1,6 +1,6 @@
 import React, {Suspense} from 'react'
 import { Canvas } from "@react-three/fiber";
-import Head from "../faceModels";
+import Head from "../glbJavaFiles/faceModels";
 
 export default function Scene() {
   

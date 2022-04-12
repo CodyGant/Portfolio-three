@@ -1,6 +1,6 @@
 import React, {Suspense} from 'react'
 import {Canvas} from "@react-three/fiber";
-import Head from "../Nextjslogo";
+import Head from "../glbJavaFiles/Nextjslogo";
 
 export default function Scene() {
   

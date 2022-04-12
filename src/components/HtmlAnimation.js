@@ -1,6 +1,6 @@
 import React, {Suspense} from 'react'
 import {Canvas} from "@react-three/fiber";
-import Head from "../Html";
+import Head from "../glbJavaFiles/Html";
 
 export default function Scene() {
   
