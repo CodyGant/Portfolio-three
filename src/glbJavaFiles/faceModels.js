@@ -44,10 +44,11 @@ function DefualtModel({ ...props }) {
     });
   }if (rightprofile[0] === true){
     Rightprofile()
+    console.log('am i working')
     
   }else{
     AnimationRunning()
-    
+    console.log('am i working')
   }
   
 
@@ -68,6 +69,7 @@ function DefualtModel({ ...props }) {
   }else{
     AnimationRunning()
   }
+
 
   
 

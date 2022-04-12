@@ -3,7 +3,8 @@ import Terminal from "terminal-in-react";
 import { setGlobalState, useGlobalState } from '../state/index'
 
 function Terminall() {
-   useGlobalState("stopanimation", 'sideprofile', 'rightprofile');
+   useGlobalState('stopanimation', 'sideprofile', 'rightprofile');
+   
     return (
       <div>
         <Terminal
@@ -39,9 +40,11 @@ function Terminall() {
             },
             right: () => {
               function right(){
+                
                setGlobalState("rightprofile", true)
                setGlobalState("sideprofile", false)
                setGlobalState("stopanimation", false)
+              
                
                 
               
