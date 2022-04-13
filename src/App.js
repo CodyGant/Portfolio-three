@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import About from "./components/About";
 import Technologies from "./components/Tech";
 import ContactMe from "./components/Contactme";
+import Resume from './components/resume'
 import Footer from "./components/footer";
 import { Stack } from "react-bootstrap";
 
@@ -22,6 +23,9 @@ function App() {
           </div>
           <div className = 'tech'>
             <Technologies />
+          </div>
+          <div>
+            <Resume />
           </div>
           <div>
             <ContactMe />
