@@ -52,7 +52,7 @@ class About extends React.Component {
             sociosqu ad litora torquent per conubia nostra, per inceptos
             himenaeos. Fusce egestas, this mf bruh mauris eu vehicula placerat, lacus mi
             hendrerit lacus, ac rhoncus arcu purus eget odio. Aliquam commodo
-            mattis lorem vitae porttitor.
+            mattis lorem vitae porttitor. listen man it be hard to code cut me a break ok?
           </p>
         </section>
       </section>
