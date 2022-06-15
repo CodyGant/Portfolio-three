@@ -2,7 +2,9 @@ import React from 'react'
 
 function Resume() {
   return (
-    <div>this be my resume</div>
+    <div>
+      <h1>PROJECTS</h1>
+    </div>
   )
 }
 
