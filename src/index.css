@@ -14,6 +14,30 @@ html {
   height:250px !important;
 
 }
+.projects{
+  min-height: 100vh;
+}
+#Technologies{
+  display:inline-block !important;
+  width:100%;
+
+ 
+}
+.project-card{
+  margin:20px;
+}
+.project-card .card{
+margin:20px;
+
+}
+.project-card img{
+  
+  opacity: .8;
+  height:fit-content;
+  
+  border:1px solid white;
+}
+
 
 a{
   text-decoration: none !important;
@@ -134,21 +158,36 @@ button {
   box-shadow: 0 0 10px rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0.5);
   cursor: pointer;
 }
-
-button:hover {
-  animation: flicker2 0.1s infinite alternate;
-  color: #000;
-  border: 1px solid transparent;
-  box-shadow: 0 0 40px #0a0, inset 0 0 40px #0a0;
+.cardButton{
+  font-family: "Share Tech Mono", monospace;
+  color: #0f0 !important;
+  background: transparent !important;
+  padding: 10px !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase;
+  display: block !important;
+  width: 100% !important;
+  margin: 0 10px 10px 0 !important;
+  outline: none !important;
+  border: 1px solid #0f0 !important;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0.5) !important;
+  cursor: pointer !important;
 }
 
-button:active {
-  font-weight: bold;
+.cardButton:hover, button:hover {
+  animation: flicker2 0.1s infinite alternate !important;
+  color: #000 !important;
+  border: 1px solid transparent !important;
+  box-shadow: 0 0 40px #0a0, inset 0 0 40px #0a0 !important;
 }
 
-button:visited {
-  font-weight: bold;
-  border: 1px solid blue;
+.cardButton:active,   button:active {
+  font-weight: bold !important;
+}
+
+.cardButton:visited, button:visited {
+  font-weight: bold !important;
+  border: 1px solid blue !important;
 }
 
 .imageDisplay {
@@ -270,23 +309,6 @@ iframe#iframeVideo {
   }
 }
 
-@keyframes twitch {
-  0% {
-    padding: 20px;
-  }
-  50% {
-    padding: 20px;
-  }
-  51% {
-    padding: 19px;
-  }
-  50% {
-    padding: 20px;
-  }
-  100% {
-    padding: 20px;
-  }
-}
 
 @media screen and (max-width: 700px) {
   .screen {
@@ -300,5 +322,4 @@ iframe#iframeVideo {
 .card{
   background-color:transparent !important;
   border: none !important;
-  
 }

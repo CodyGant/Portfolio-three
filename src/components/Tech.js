@@ -35,6 +35,11 @@ function Tech() {
           </Card>
           <Card>
             <Card.Body>
+              <Reactlogo />
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Body>
               <Nextjs />
             </Card.Body>
           </Card>
