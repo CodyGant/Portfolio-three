@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@1,300&display=swap");
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
 body,
 html {
   
@@ -384,7 +385,7 @@ iframe#iframeVideo {
 }
 
 .footer-distributed .footer-center i {
-  background-color: transparent !important;
+  background-color: black !important;
   color: #ffffff;
   font-size: 25px;
   width: 38px;
@@ -428,7 +429,7 @@ iframe#iframeVideo {
   font-weight: 300;
   font-size: 20px;
   left: 0;
-  color: black;
+  color: transparent !important;
   display: inline-block;
   padding-right: 5px;
 }
@@ -468,11 +469,11 @@ iframe#iframeVideo {
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: transparent;
+  background-color: #ececec;
   border-radius: 2px;
-
+opacity: .8;
   font-size: 20px;
-  color: #ffffff;
+  color: black;
   text-align: center;
   line-height: 35px;
   margin-right: 3px;
