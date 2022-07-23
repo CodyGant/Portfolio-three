@@ -1,10 +1,17 @@
 import React from "react";
-
+import Skeleton from '../components/Skeleton';
 function footer() {
   return (
     <div className="footerContainer">
       <footer class="footer-distributed">
+      <div className = 'skeletonBox'>
+      <p>Goodbye, I hope to hear from you.</p>
+        <Skeleton/>
+       
+        </div>
+      
         <div class="footer-left">
+          
           <h3>
             <span></span>
           </h3>
@@ -40,7 +47,7 @@ function footer() {
 
         <div class="footer-right">
           <p class="footer-company-about">
-            <span>Here are my socials! :D</span>
+          
             
           </p>
 
