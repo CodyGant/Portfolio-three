@@ -30,7 +30,7 @@ class About extends React.Component {
           cyber framework.
           <hr />
          Try out the terminal! you can move my head around or change the angles. It gives you a more intimate 
-         view of me:) type 'help' to see the commands you can input. commiting!!! hehe
+         view of me:) type 'help' to see the commands you can input. 
         </p>
       </section>
 
@@ -44,15 +44,15 @@ class About extends React.Component {
 
         <section>
           <p>
-            i need a commit for tonight. I am going thru a lot so its kinda hard to code these past two weeks:/
+            
             <hr />
             Sed rhoncus a leo congue sollicitudin. Fusce risus tortor, rutrum id
             egestas at, elementum in dui. Fusce bibendum purus eu turpis
             vestibulum, eget aliquet ante pellentesque. Class aptent taciti
             sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos. Fusce egestas, this mf bruh mauris eu vehicula placerat, lacus mi
+            himenaeos. Fusce egestas,  mauris eu vehicula placerat, lacus mi
             hendrerit lacus, ac rhoncus arcu purus eget odio. Aliquam commodo
-            mattis lorem vitae porttitor. listen man it be hard to code cut me a break ok?
+            mattis lorem vitae porttitor. 
           </p>
         </section>
       </section>
