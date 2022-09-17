@@ -243,14 +243,14 @@ iframe#iframeVideo {
 
 .buttonGroup hr {
   position: relative;
-  height: 1em;
+  height: .5em;
   color: #0f0;
   border-color: #0f0;
   background-color: #0f0;
 }
 
 .buttonGroup hr:after {
-  content: "✱✱✱✱✱✱✱✱✱✱✱✱✱✱✱✱✱✱✱";
+  
   position: absolute;
   top: 0;
   left: 0;
