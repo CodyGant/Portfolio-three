@@ -1,7 +1,9 @@
 import React from "react";
 import Skeleton from '../components/Skeleton';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+import { DiGithubBadge } from 'react-icons/di';
+import { AiFillLinkedin } from 'react-icons/ai';
+
 function footer() {
   return (
     <div className="footerContainer">
@@ -35,7 +37,7 @@ function footer() {
 
           <div>
             <i className="fa fa-phone"></i>
-            <p><a href="tel:3868824486">(386) 882-4486  commit</a></p>
+            <p><a href="tel:3868824486">(386) 882-4486 </a></p>
           </div>
 
           <div>
@@ -53,17 +55,17 @@ function footer() {
           </p>
 
           <div className="footer-icons">
-            <a href="\">
-              <i className="bi bi-facebook"></i>
+            <a  target="_blank" rel="noreferrer" href="https://github.com/CodyGant">
+            <DiGithubBadge />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/cody-gant-ba86881aa/">
+            <AiFillLinkedin />
+            </a>
+            <a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://media-exp1.licdn.com/dms/document/C4E2DAQEUZ8vx4aJR2A/profile-treasury-document-pdf-analyzed/0/1647880771269?e=1664409600&v=beta&t=FwgFfhoD7GUZ38AxtzAxhWwxORKTLZNXuT-Z-CNRLkQ">
+            <DiGithubBadge />
             </a>
             <a href="\">
-            <FontAwesomeIcon icon={faCoffee} />
-            </a>
-            <a href="\">
-            <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />
-            </a>
-            <a href="\">
-              <i className="bi bi-instagram"></i>
+            <DiGithubBadge />
             </a>
           </div>
         </div>
