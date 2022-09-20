@@ -61,10 +61,10 @@ function footer() {
             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/cody-gant-ba86881aa/">
             <AiFillLinkedin />
             </a>
-            <a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://media-exp1.licdn.com/dms/document/C4E2DAQEUZ8vx4aJR2A/profile-treasury-document-pdf-analyzed/0/1647880771269?e=1664409600&v=beta&t=FwgFfhoD7GUZ38AxtzAxhWwxORKTLZNXuT-Z-CNRLkQ">
+            <a target="_blank" rel="noreferrer" href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://media-exp1.licdn.com/dms/document/C4E2DAQEUZ8vx4aJR2A/profile-treasury-document-pdf-analyzed/0/1647880771269?e=1664409600&v=beta&t=FwgFfhoD7GUZ38AxtzAxhWwxORKTLZNXuT-Z-CNRLkQ">
             <DiGithubBadge />
             </a>
-            <a href="\">
+            <a  target="_blank" rel="noreferrer" href="\">
             <DiGithubBadge />
             </a>
           </div>
